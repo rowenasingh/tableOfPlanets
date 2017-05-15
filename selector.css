@@ -1,0 +1,59 @@
+body {
+	background-color:rgb(128,128,128);
+}
+
+h1 {
+	background-color:blue;
+	border: 2px solid red;
+	color:white;
+}
+
+p:first-of-type {
+	background-color: #4277f4;
+	color:white;
+	text-transform:capitalize;
+}
+
+p.par2 {
+	background-color:rgba(244,66,215,0.5);
+	color:white;
+	text-transform:uppercase;
+}
+
+p#par3 {
+	background-color:darkgreen;
+	color:white;
+	text-transform:lowercase;
+}
+
+h4 {
+	background-color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-decoration:underline;
+}
+
+h2 {
+	text-transform:uppercase;
+}
+
+ul li:nth-child(2) {
+	color:orange;
+}
+
+th {
+	color:purple;
+}
+
+tr td:nth-child(3) {
+	color:blue;
+	font-size:2em;
+}
+
+input[required] {
+	border:2px solid red;
+}
+
+input[type="submit"] {
+	width:200px;
+	height:100px;
+}
